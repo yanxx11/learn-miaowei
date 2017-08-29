@@ -1,1 +1,5 @@
 
+总结
+1 老师的地址无效，自己百度搜索到百度地图js接口，申请密钥时服务器类型选错，导致密钥不可用，经百度API使用的论坛发现，正确的服务器类型，密钥可以使用
+2 用navigator.geolocation.getCurrentPosition获取经纬度传给new BMap.Point时，地图无法显示出来，开始以为是地图API用错，后来经过和正常代码对比发现是navigator.geolocation.getCurrentPosition的执行出现问题，给个固定的经纬度，发现可以
+3 异步加载时，oscript的callback函数要写在window.onload外部，否则不执行，限制还不知道为什么
