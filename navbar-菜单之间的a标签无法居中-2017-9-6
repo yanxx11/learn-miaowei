@@ -1,4 +1,4 @@
-对于这点代码，两个菜单之间的代码，要是没有button，那么a标签就无法居中
+对于这点代码，两个菜单之间的代码，要是没有button标签，那么a标签就无法居中
 <nav class="navbar navbar-default navbar-fixed-top">
 	<div class="container">
     	<div class="navbar-header">
