@@ -10,4 +10,6 @@ boostrap字体库中的图标加个圆形或其他形状，没必要在这个图
 a标签加transition:1s;那么a:hover就会有个动画效果
 a链接变成按钮<a href="http://www.maiziedu.com" class="btn btn-primary" target="_blank" role="button">加入学习</a>
 地址用address标签，底部用footer标签，更语义化                        
-                    
+ <textarea type='text' class= 'form-control' placeholder='留言内容' rows='4'></textarea> 如果textarea标签之间有空格，那么提示信息无法显示,
+ rows='4'是指高度设置为4行，再设置样式height:auto;
+每个内容的宽度都可以用col-md-数字来表示，可以自适应
