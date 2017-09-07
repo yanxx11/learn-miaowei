@@ -4,3 +4,4 @@
 图片自适应的样式 class='img-responsive' 然后给这个图片加上display:inline-block或者margin:0 atuo的属性才能居中
 居中技巧 col-md-1 col-md-10 col-md-1  然后col-md-1空着,只在col-md-10中写结构，就可以居中了
 样式编写小技巧，可以在调试器中写好样式，然后拷到样式表中，这样就不用反复更新，查看自己的样式了
+boostrap字体库中的图标加个圆形或其他形状，没必要在这个图标外面再包一层，直接定义一个类，写上样式就行了
