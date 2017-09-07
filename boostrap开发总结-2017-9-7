@@ -1,5 +1,5 @@
 模块采用语义化标签，不要再只用div，如section,footer
 模块的高度不要设置，设置上下填充就行了，否则自适应时会乱掉
 图片的高宽不要设置为百分比，屏幕变小时，可能会被拉伸。
-图片自适应的样式 class='img-responsive' 然后给这个图片加上display:inline-block的属性才能居中
+图片自适应的样式 class='img-responsive' 然后给这个图片加上display:inline-block或者margin:0 atuo的属性才能居中
 居中技巧 col-md-1 col-md-10 col-md-1  然后col-md-1空着,只在col-md-10中写结构，就可以居中了
