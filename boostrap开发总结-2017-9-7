@@ -1,8 +1,13 @@
 模块采用语义化标签，不要再只用div，如section,footer
-模块的高度不要设置，设置上下填充就行了，否则自适应时会乱掉
+模块的宽高度不要设置，设置padding填充就行了，否则自适应时会乱掉
 图片的高宽不要设置为百分比，屏幕变小时，可能会被拉伸。
 图片自适应的样式 class='img-responsive' 然后给这个图片加上display:inline-block或者margin:0 atuo的属性才能居中
 居中技巧 col-md-1 col-md-10 col-md-1  然后col-md-1空着,只在col-md-10中写结构，就可以居中了
 样式编写小技巧，可以在调试器中写好样式，然后拷到样式表中，这样就不用反复更新，查看自己的样式了
 boostrap字体库中的图标加个圆形或其他形状，没必要在这个图标外面再包一层，直接定义一个类，写上样式就行了
 这是属于响应式开发，开发过程中没开发好一个模块都把屏幕缩小看看效果，及时调试。
+调试界面，左边选中类名，样式显示区域：点击加号，就自动出现这个类名的空样式，可以在里面写自己的样式
+a标签加transition:1s;那么a:hover就会有个动画效果
+a链接变成按钮<a href="http://www.maiziedu.com" class="btn btn-primary" target="_blank" role="button">加入学习</a>
+地址用address标签，底部用footer标签，更语义化                        
+                    
