@@ -17,7 +17,7 @@
       <option>高级会员</option>
     </select>
 </div>
-8 form中的提交按钮不用加父级form-group,直接用input或button
+8 form中的提交按钮不用加父级form-group,直接用input或button,也不要加form-control否则会100%宽
 9 勾选框  <div class="checkbox">
                     <label>
                         <input type="checkbox">全局置顶
