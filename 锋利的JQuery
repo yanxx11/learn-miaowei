@@ -1,2 +1,0 @@
-要考虑用户禁用javascript功能的情况
-nth-child(index)是从1开始，可匹配多个   :eq(index)从0开始，只匹配一个
